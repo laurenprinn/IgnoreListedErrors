@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="Q:\source\AppModBenchMark\IgnoreListedErrors\build-v140-cpp20\CMakeFiles\cabc868010c523169e9ef3a54a6c26f5\generate.stamp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{58D69895-E26D-32BB-866E-8B8ACB30FD43}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

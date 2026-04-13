@@ -1,0 +1,8 @@
+{
+	"InstallScripts" : 
+	[
+		"Q:/source/AppModBenchMark/IgnoreListedErrors/build-v145-cpp20/cmake_install.cmake",
+		"Q:/source/AppModBenchMark/IgnoreListedErrors/build-v145-cpp20/IgnoreListedErrors/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

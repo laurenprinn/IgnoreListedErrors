@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="Q:\source\AppModBenchMark\IgnoreListedErrors\IgnoreListedErrors\IgnoreListedErrors.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Q:\source\AppModBenchMark\IgnoreListedErrors\IgnoreListedErrors\IgnoreListedErrors.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="Q:\source\AppModBenchMark\IgnoreListedErrors\IgnoreListedErrors\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{9820E9BA-48F1-3E9F-9EC2-A3AB6DC7C3D7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{C165490A-7234-372A-A923-3526562D8CCD}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
