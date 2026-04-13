@@ -21,7 +21,7 @@ param(
 	[string]$BuildType = "Debug",
 
 	[ValidateSet("11", "14", "17", "20")]
-	[string]$CppStandard = "20",
+	[string]$CppStandard = "",
 
 	[string]$SdkVersion = ""
 )
@@ -32,36 +32,46 @@ $toolsetInfo = @{
 		Name = "Visual Studio 2015"
 		Year = "2015"
 		DefaultSdk = "10.0.22621.0"
+		DefaultCppStandard = "14"
 		Color = "Yellow"
 	}
 	"v141" = @{
 		Name = "Visual Studio 2017"
 		Year = "2017"
 		DefaultSdk = "10.0.22621.0"
+		DefaultCppStandard = "20"
 		Color = "Cyan"
 	}
 	"v142" = @{
 		Name = "Visual Studio 2019"
 		Year = "2019"
 		DefaultSdk = "10.0.26100.0"
+		DefaultCppStandard = "20"
 		Color = "Green"
 	}
 	"v143" = @{
 		Name = "Visual Studio 2022"
 		Year = "2022"
 		DefaultSdk = "10.0.26100.0"
+		DefaultCppStandard = "20"
 		Color = "Magenta"
 	}
 	"v145" = @{
 		Name = "Visual Studio 2026"
 		Year = "2026"
 		DefaultSdk = "10.0.26100.0"
+		DefaultCppStandard = "20"
 		Color = "Magenta"
 	}
 }
 
 $info = $toolsetInfo[$Toolset]
 $color = $info.Color
+
+# Use default C++ standard if not specified
+if ([string]::IsNullOrEmpty($CppStandard)) {
+	$CppStandard = $info.DefaultCppStandard
+}
 
 # Use default SDK if not specified
 if ([string]::IsNullOrEmpty($SdkVersion)) {
