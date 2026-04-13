@@ -29,8 +29,8 @@ public:
 	}
 };
 
-int concept = 5;  // 'concept' is a C++20 keyword
-auto co_await = 10;  // 'co_await' is a C++20 coroutine keyword
+int concept_value = 5;  // 'concept' is a C++20 keyword - renamed to avoid conflict
+auto co_await = 10;  // C2059 error appears in v140 as well
 
 
 int main()
