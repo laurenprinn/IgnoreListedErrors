@@ -2,8 +2,7 @@
 
 using namespace std;
 
-// This works in v140/v141 but fails in v143+ with C2143
-class module {  // 'module' became a keyword in C++20
+class module {
 	int data;
 };
 
@@ -29,8 +28,8 @@ public:
 	}
 };
 
-int concept_value = 5;  // 'concept' is a C++20 keyword - renamed to avoid conflict
-auto co_await = 10;  // C2059 error appears in v140 as well
+int concept = 5;
+auto co_await = 10; 
 
 
 int main()
