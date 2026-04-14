@@ -28,7 +28,7 @@ public:
 	}
 };
 
-int concept = 5;
+int concept_value = 5;
 auto co_await = 10; 
 
 
