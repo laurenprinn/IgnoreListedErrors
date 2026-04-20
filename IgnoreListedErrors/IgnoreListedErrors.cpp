@@ -26,10 +26,16 @@ public:
 	{
 		cout << "finished" << endl;
 	}
+
+	void displayResult(const string& operation, double result)
+	{
+		cout << "finished" << endl;
+	}
 };
 
-int concept_value = 5;
-auto co_await = 10; 
+int concept = 5;
+auto constinit = 10;
+__declspec(dllexprt) int x;
 
 
 int main()
@@ -46,5 +52,5 @@ int main()
 	calc.displayResult("10 / 5", calc.divide(10, 5));
 	calc.displayResult("10 / 0", calc.divide(10, 0));
 
-	return 0;
+	return 0
 }
