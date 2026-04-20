@@ -33,8 +33,8 @@ public:
 	}
 };
 
-int concept = 5;
-auto constinit = 10;
+int concept_value = 5;
+auto constinit_value = 10;
 __declspec(dllexprt) int x;
 
 
